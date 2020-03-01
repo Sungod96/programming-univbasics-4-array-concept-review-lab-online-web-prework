@@ -8,10 +8,10 @@ nil
 end
 
 def find_max_value(array)
-  max_number = 0 
-  array.length.times do |count|
-    if array[count] > max_number
-      max_number = array[count]
+ max_number = 0 
+ array.length.times do |count|
+   if array[count] > max_number
+     max_number = array[count]
     end
   end
     return max_number
