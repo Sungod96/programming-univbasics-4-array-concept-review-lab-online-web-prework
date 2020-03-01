@@ -12,7 +12,6 @@ def find_max_value(array)
 array.length.times do |count|
   if array[count] > max_number
     max_number = array[count]
-    return max_number
   end
 end
 return max_number
@@ -20,5 +19,9 @@ return max_number
 
 def find_min_value(array)
   array.length.times do |count|
-    if array[count] < 
+    if array[count] < min_number 
+      min_number = array[count]
+    end
+  end
+  return min_number
 end
