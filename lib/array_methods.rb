@@ -22,11 +22,11 @@ def find_max_value(array)
 
 def find_min_value(array)
   min_number = array[0]
-  array.legnth.times do |count|
+  array.length.times do |count|
     if array[count] < min_number
       min_number = array[count]
     end
   end
   return min_number
- 
+  
 end
