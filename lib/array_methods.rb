@@ -4,6 +4,7 @@ array.length.times do |count|
     return count
   end
   end
+  nil
 end
 
 end
